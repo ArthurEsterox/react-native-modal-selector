@@ -322,6 +322,7 @@ export default class ModalSelector extends React.Component {
                                 accessibilityLabel={scrollViewAccessibilityLabel}
                                 keyExtractor={this.props.keyExtractor}
                                 renderItem={this.renderFlatlistOption}
+                                onEndReached={this.props.onEndReached}
                             />
                             :
                             <ScrollView
